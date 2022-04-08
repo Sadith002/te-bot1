@@ -3,7 +3,7 @@ import telebot
  
  bot = telebot.TeleBot('5207380248:AAGuFoflyrKSOFHIg39JfHIJciikexHMMAM')
 
- @bot.message_handler(commands=["startbot"])
+ @bot.message_handler(commands=["start"])
  def send_welcome(message):
      bot.reply_to(message,"Hello! I am Group security bot How can i help you")
 
